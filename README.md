@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PopX Login and Profile Pages
 
-## Getting Started
+This project is a **pixel-perfect** replica of the provided mobile app UI, developed using **Next.js**, **React.js**, **TailwindCSS**, and **TypeScript**.
 
-First, run the development server:
+## Features
+
+- **Login Page**  
+  - Accepts any email and password.  
+  - No real authentication — **any credentials will log you in**.
+
+- **Profile Page**  
+  - Displays a **fake user profile** after login (static content).
+
+- **Navigation**  
+  - Seamless and smooth between Login and Profile pages using Next.js routing.
+
+- **Responsive and Centered Design**  
+  - Mobile interface is **centered** on the web page.  
+  - **Borders** are added around the main container, as per the design references.
+
+## Important Notice
+
+- **Login functionality is purely visual.** No backend authentication is implemented.
+- **Fake profile data** is shown for demonstration purposes.
+
+## Tech Stack
+
+- Next.js
+- React.js
+- TailwindCSS
+- TypeScript
+
+## Hosting
+
+- Live preview available on [Vercel](https://popx2.vercel.app/) (replace with your deployed link).
+
+## Setup Instructions
 
 ```bash
+git clone <repository-url>
+cd <project-folder>
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

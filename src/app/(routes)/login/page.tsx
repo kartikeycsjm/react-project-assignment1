@@ -66,8 +66,9 @@ export default function Login() {
                             type="submit"
                             className={`w-full py-3 mt-4 
                             bg-gray-300 text-white 
+                            cursor-not-allowed
                             text-center font-medium rounded-md
-                            ${(email.length>0&&password.length>0)&&'bg-purple-600'}`}
+                            ${(email.length>0&&password.length>0)&&'bg-purple-600 cursor-pointer'}`}
                         >
                             Login
                         </button>
