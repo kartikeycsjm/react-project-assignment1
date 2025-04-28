@@ -34,8 +34,7 @@ export default function Register() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // In a real app, you would handle form submission here
-    // For now, just navigate to the account page
+    //nothing
     router.push("/account")
   }
 

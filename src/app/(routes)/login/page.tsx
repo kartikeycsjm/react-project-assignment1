@@ -12,8 +12,7 @@ export default function Login() {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault()
-        // In a real app, you would handle authentication here
-        // For now, just navigate to the account page
+        // nothing
         router.push("/account")
     }
 

@@ -37,7 +37,7 @@ export default function Account() {
           </div>
 
           <div className="border-t border-dashed border-gray-300 mt-6 pt-6">
-            {/* Additional account content could go here */}
+          //anything
           </div>
         </div>
       </div>
